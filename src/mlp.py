@@ -139,12 +139,6 @@ class MLP:
                 Y2[i] = 0
 
             return Y2
-                 
-    # Não sei programar python, estava dando erro quando eu ia usar as funções de ativação lá na classe
-    # Por isso exclui a classe e fiz aqui mesmo, aí deu certo.
-    # O erro era sobre os 'parâmetros posicionais' da função, dizia que estava faltando um.
-    # Provavelemente Alguma coisa da sintaxe do python que eu não conheço bem.
-    # Peço desculpa pela bagunça, se fosse em Java o código teria ficado mais organizado rs
 
     # Função Logística
     def g(self, u) :
